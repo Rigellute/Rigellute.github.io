@@ -1,0 +1,406 @@
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles MOBILE FIRST
+   ========================================================================== */
+
+body {
+    background-color: #222;
+    height: 100%;
+}
+
+p {
+    color: #999;
+}
+
+
+/*
+==========================================================================
+Media query for desktop and up
+
+=========================================================================
+*/
+
+
+/*@media (min-width:850px) {*/
+
+.header {
+    height: 100vh;
+}
+
+.header h1 {
+    text-align: center;
+    color: #999;
+    /*        margin-top: 30vh;*/
+}
+
+.bubble-section {
+    height: 100vh
+}
+
+.img-bubble {
+    background-image: url(http://prinzhorn.github.io/skrollr/examples/images/bubbles.png);
+    z-index: -4;
+    height: 100%;
+    width: 100%;
+}
+
+.bubble {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(164, 204, 244, 0.65);
+    position: relative;
+}
+
+.bbl01 {
+    width: 20px;
+    height: 20px;
+    margin-left: 40%;
+}
+
+.bbl02 {
+    width: 12px;
+    height: 12px;
+    margin-left: 10%;
+}
+
+.bbl03 {
+    margin-left: 30%;
+}
+
+.bbl04 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 60%;
+}
+
+.bbl05 {
+    width: 20px;
+    height: 20px;
+    margin-left: 80%;
+}
+
+.bbl06 {
+    width: 20px;
+    height: 20px;
+    margin-left: 50%;
+}
+
+.bbl07 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 20%;
+}
+
+.bbl08 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 90%;
+}
+
+.bbl09 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 65%;
+}
+
+.bbl10 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 30%;
+}
+
+.bbl11 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 50%;
+}
+
+.bbl12 {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 10%;
+}
+
+.bbl13 {
+    width: 9px;
+    height: 9px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 85%;
+}
+
+.bbl14 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 40%;
+}
+
+.bbl15 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 72%;
+}
+
+.bbl16 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 5%;
+}
+
+.bbl17 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 25%;
+}
+
+.bbl18 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 60%;
+}
+
+.bbl19 {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 90%;
+}
+
+.bbl20 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 10%;
+}
+
+.bbl21 {
+    width: 20px;
+    height: 20px;
+    margin-left: 50%;
+}
+
+.bbl22 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 20%;
+}
+
+.bbl23 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 90%;
+}
+
+.bbl24 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 65%;
+}
+
+.bbl25 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 30%;
+}
+
+.bbl26 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 50%;
+}
+
+.bbl27 {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 10%;
+}
+
+.bbl28 {
+    width: 9px;
+    height: 9px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 85%;
+}
+
+.bbl29 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 40%;
+}
+
+.bbl30 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 72%;
+}
+
+.bbl31 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 5%;
+}
+
+.bbl32 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 25%;
+}
+
+.bbl33 {
+    width: 7px;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 60%;
+}
+
+.bbl34 {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 90%;
+}
+
+.place {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sun {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 20%;
+}
+
+.landscape {
+    height: 100vh;
+    background-image: url(../img/yukon-landscape-mask.png);
+    z-index: 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: relative;
+    overflow: visible;
+}
+
+
+/*}*/
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
