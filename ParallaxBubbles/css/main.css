@@ -30,7 +30,6 @@ Media query for desktop and up
 */
 
 
-/*@media (min-width:850px) {*/
 
 .header {
     height: 100vh;
@@ -40,6 +39,46 @@ Media query for desktop and up
     text-align: center;
     color: #999;
     /*        margin-top: 30vh;*/
+}
+
+.section-2 {
+    height: 100vh;
+}
+
+.shimmer {
+  text-align: center;
+  color: rgba(255,255,255,0.1);
+  background: -webkit-gradient(linear, left top, right top, from(#111), to(#111), color-stop(0.5, #fff));
+  background: -moz-gradient(linear, left top, right top, from(#111), to(#111), color-stop(0.5, #fff));
+  background: gradient(linear, left top, right top, from(#111), to(#111), color-stop(0.5, #fff));
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #111;
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
 }
 
 .bubble-section {
@@ -59,7 +98,7 @@ Media query for desktop and up
     height: 10px;
     margin-bottom: 20px;
     background-color: antiquewhite;
-    z-index: -1;
+    z-index: -2;
     box-shadow: 0 0 20px rgba(164, 204, 244, 0.65);
     position: relative;
 }
@@ -296,19 +335,22 @@ Media query for desktop and up
 
 .place {
     height: 100vh;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .sun {
     width: 500px;
     height: 500px;
+    margin-top: 97vh;
+    margin-bottom: 0;
     background-color: rgba(255, 255, 255, 1);
     margin-left: 20%;
+    z-index: -1;
 }
 
 .landscape {
     height: 100vh;
-    background-image: url(../img/yukon-landscape-mask.png);
+    background-image: url();
     z-index: 2;
     background-size: cover;
     background-repeat: no-repeat;
@@ -317,8 +359,34 @@ Media query for desktop and up
     overflow: visible;
 }
 
+.landscape-2 {
+    height: 100vh;
+    background-image: url(../img/yukon-landscape-mask.png);
+    z-index: 2;
+    margin-top: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: relative;
+    overflow: visible;
+}
 
-/*}*/
+.landscape-overflow {
+    height: 10vh;
+    background-color: black;
+}
+
+.row-wrapper {
+    margin-top: 70vh;
+}
+
+
+@media (min-width:850px) {
+    .landscape-2 {
+        margin-top: 0;
+    }
+}
+
 
 
 /* ==========================================================================
